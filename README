@@ -1,0 +1,58 @@
+Project README
+Overview
+This project is a React application with routing managed by react-router-dom and a basic authentication check. The primary goal is to ensure the application functions correctly and to improve its structure and routing logic.
+
+Setup
+Clone the Repository:
+git clone https://github.com/your-username/your-repo.git
+
+Navigate to the Project Directory:
+cd your-repo
+
+Install Dependencies:
+npm install
+
+Start the Development Server:
+npm start
+
+The application will be available at http://localhost:3000.
+
+Existing Functionality
+Routing: The application uses react-router-dom for routing.
+Authentication Check: The app checks the validity of an authentication token on page load.
+Layouts and Pages: Includes a LoginLayout and an EmailVerificationPage.
+
+Task for Testers
+
+Improve App.js
+The App.js file currently has some issues with routing and authentication. Testers are expected to:
+
+Fix Routing Issues:
+Ensure that accessing /login/emailverification does not redirect to /login.
+Verify and correct the routing setup if necessary.
+
+Enhance Error Handling:
+Implement a user-friendly error handling mechanism for fetch requests and routing.
+
+Code Quality:
+Review the code for any potential improvements or refactoring.
+Ensure the code adheres to best practices for React development.
+
+Code Review Process
+
+Review the Code:
+Examine the App.js file and the related components and routes.
+
+Make Improvements:
+Implement the necessary changes and improvements as outlined above.
+
+Test the Application:
+Ensure all routes work correctly and the application handles authentication as expected.
+
+Submit a Pull Request:
+Create a new branch for your changes and submit a pull request for review.
+
+Additional Notes
+
+Make sure to test thoroughly after making changes.
+If you encounter any issues or have questions, feel free to open an issue on GitHub or message me.
