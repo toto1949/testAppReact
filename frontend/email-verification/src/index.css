@@ -1,0 +1,106 @@
+:root {
+  --main-background: #101010;
+  --main-white: #ffffff;
+  --main-black: #000000;
+  --main-purple: #b997ff;
+  --main-gray: #2c2c2c;
+  --dark-purple: #322b40;
+}
+
+/* main {
+  max-width: 1200px;
+  margin: 40px auto;
+} */
+
+.main-purple {
+  color: var(--main-purple) !important;
+}
+.bg-main-purple {
+  background-color: var(--main-purple) !important;
+  color: var(--main-black) !important;
+}
+.bg-main-gray {
+  background-color: var(--main-gray) !important;
+  color: var(--main-white) !important;
+}
+.bg-dark-purple {
+  background-color: var(--dark-purple) !important;
+}
+
+.logo {
+  max-width: rem !important;
+  width: 8.4rem !important;
+  cursor: pointer !important;
+}
+
+input {
+  border: 0 !important;
+  outline: 0 !important;
+  border-bottom: 1px solid var(--main-white) !important;
+  border-radius: 0 !important;
+  color: var(--main-white) !important;
+  background-color: transparent !important;
+}
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--main-white) !important;
+  opacity: 1 !important; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--main-white) !important;
+}
+
+.form-control::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--main-white) !important;
+}
+
+input {
+  border: 0 !important;
+  outline: 0 !important;
+  border-bottom: 1px solid var(--main-white) !important;
+  border-radius: 0 !important;
+  color: var(--main-white) !important;
+  background-color: transparent !important;
+}
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--main-white) !important;
+  opacity: 1 !important; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--main-white) !important;
+}
+
+.form-control::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--main-white) !important;
+}
+
+.border-purple {
+  border-color: var(--main-purple) !important;
+}
+
+.disbound-text {
+  letter-spacing: 0.11rem !important;
+  font-size: 2.4rem !important;
+  font-weight: bold !important;
+}
+
+.letter-spacing {
+  letter-spacing: 1rem !important;
+}
+
+/* .main-disbound-header {
+  font-size: 2.4rem !important;
+  margin: 0 !important;
+}
+
+.main-disbound-secondary-header {
+  font-size: 1.2rem !important;
+  margin: 0;
+} */
